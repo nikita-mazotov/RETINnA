@@ -7,6 +7,8 @@ REBOUND is an N-body simulation software package which we used to generate a Sun
 
 We ran this 10000 times, using a software called Sobol to sample the intruder's mass, speed, initial distance from the Sun, and target distance from the Sun. Sobol was chosen over random sampling because it picks out combinations more evenly. 
 
+All of this was done on ReboundGeneration.ipynb
+
 ## Ejection Classification
 
 Planet ejection is defined as an orbit with a negative semimajor axis, and is the failure mode chosen for this study. A set of 10k datapoints generated in Rebound was processed with *data_processor.py* to create polar features from the input cartesian ones. The data is formatted into features comprehensible to the three methods:
