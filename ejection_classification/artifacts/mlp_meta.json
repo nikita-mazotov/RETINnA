@@ -1,0 +1,22 @@
+{
+  "framework": "pytorch",
+  "model_file": "mlp_state.pt",
+  "scaler_file": "mlp_scaler.joblib",
+  "feature_names": [
+    "r0",
+    "v0",
+    "cos_dtheta",
+    "sin_dtheta",
+    "mass",
+    "rTarget"
+  ],
+  "hidden": [
+    128,
+    64
+  ],
+  "dropout": 0.1,
+  "best_epoch": 121,
+  "threshold": 0.5,
+  "seed": 42,
+  "pos_weight": 5.566604127579738
+}

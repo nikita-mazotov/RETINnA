@@ -1,0 +1,29 @@
+{
+  "framework": "xgboost",
+  "xgboost_version": "2.1.4",
+  "model_file": "bdt_model.json",
+  "feature_names": [
+    "r0",
+    "v0",
+    "cos_dtheta",
+    "sin_dtheta",
+    "mass",
+    "rTarget"
+  ],
+  "best_iteration": 1487,
+  "params": {
+    "objective": "binary:logistic",
+    "eval_metric": [
+      "auc",
+      "logloss"
+    ],
+    "eta": 0.03,
+    "max_depth": 4,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "lambda": 1.0,
+    "scale_pos_weight": 5.566604127579738,
+    "verbosity": 0
+  },
+  "threshold": 0.5
+}

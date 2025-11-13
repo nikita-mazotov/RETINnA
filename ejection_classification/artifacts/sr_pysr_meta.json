@@ -1,0 +1,16 @@
+{
+  "framework": "pysr",
+  "equation": "((x1 * tanh(((x1 / -1.4926332) + (x0 / 3.0070467)) * (((x1 / x2) + x1) + (x3 * 0.037296787)))) + x4) * 3.7193508",
+  "selected_index": 22,
+  "feature_names": [
+    "r0",
+    "v0",
+    "cos_dtheta",
+    "sin_dtheta",
+    "mass",
+    "rTarget"
+  ],
+  "val_auc": 0.9379111842105263,
+  "threshold": 0.5,
+  "interpretation": "sigmoid"
+}
