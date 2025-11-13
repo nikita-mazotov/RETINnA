@@ -1,0 +1,7 @@
+name: a356
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - hdbscan
+prefix: /home/coffee/miniconda3/envs/a356
